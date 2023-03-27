@@ -1,0 +1,23 @@
+{
+    "name": "Weather Teller",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Displays current weather conditions",
+    "icons": {
+      "16": "./icon_16.png",
+      "48": "./icon_48.png",
+      "128": "./icon_128.png"
+    },
+    "permissions": [
+      "activeTab","geolocation"
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icon_16.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+      },
+      "default_popup": "./popup.html"
+    }
+  }
+  
